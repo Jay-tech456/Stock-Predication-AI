@@ -1,0 +1,25 @@
+﻿* What is a prediction? 
+   * A prediction is a forecast of what we foresee in the future given what we observe, the information present, and what we rationalize. 
+
+
+* Can a prediction be accurate/wrong? 
+   * A prediction can always be inaccurate with certain actions that are not taken into consideration. 
+      * Some of these actions include, but are not limited to, a company’s action and whether it affects the overall performance of the company. 
+         * For example, Elon Musk released 60% of his workforce, and how it has a significant impact on every S&P 500 company back in 2022. 
+      * A prediction is not what is expected to happen, but a foreshadowing of what might be an accurate choice. 
+         * Chat GPT is a great example, given a certain amount of information, it can highly dictate what might be the right answer. 
+
+
+* Given the first two questions, what will we be making? 
+   * We will be making an AI tool that allows a prediction of the rise or fall of the stock market. 
+      * This AI tool will use the given data supported by Nasdaq's 5-year website. 
+   * The AI tools will Recommend users to sell/hold their ownership equity based upon the movement of the shares. 
+      * This AI tool will strongly Recommend users add/sell their ownership of the shares. 
+   * The stock market is known to be dynamic, nonlinear, and volatile; making predictions is not always one-dimensional. 
+
+
+* Where are we going to receive the Data to support the prediction? 
+   * We will be using the Data from the Nasdaq website. 
+      * Nasdaq has a 10+ year chart and an accurate statement in regards to the data that is given. 
+         * We will be utilizing the highest and lowest values within the five years of data. 
+         * The AI tool will predict to add/sell the shares based on the 5-year chart and will send an SMS.

@@ -1,0 +1,13 @@
+﻿Requirements I: 
+        Make an Application where we can PREDICT the movement of the Stock Market
+
+
+Requirement II - Audience: 
+        The Audience is the investors currently holding the shares supported in the Nasdaq.
+
+
+Requirement III: 
+The AI must utilize the 5-year chart given on the Nasdaq websites.
+
+
+Requirement IV:
