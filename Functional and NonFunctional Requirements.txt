@@ -1,4 +1,4 @@
-﻿Requirements I: 
+Requirements I: 
         Make an Application where we can PREDICT the movement of the Stock Market
 
 
@@ -7,7 +7,33 @@ Requirement II - Audience:
 
 
 Requirement III: 
-The AI must utilize the 5-year chart given on the Nasdaq websites.
+	The AI must utilize the 5-year chart given on the Nasdaq websites.
 
 
 Requirement IV:
+	The App is depended by 3 Microservices: 
+		A) The Microservice that preforms CRUD operation with a relational database over 
+		   the current ownership of the stocks 
+
+		B) The Microservice that performance CRUD operations with a relational database over 
+		   the stock's history.
+
+		C) The Microservice that preform CRUD operations with a relational database over 
+		   the stock's realtime performance
+
+
+Requirement V: 
+	The AI is depended over the 3 micro service in order to make a rational decision. 
+	
+	The Decision is the composition of the the Stock's history and realtime micro service
+
+
+Requirement VI: 
+	An announcement should pop up on the user's screen with accordance of the stock performance. 
+		If the stock is doing well, and reached it's highest. A message to recommend the
+		user to sell the shares should be alerted. 
+
+		If the stock is not doing well, and continuously declines. A message to recommend
+		the owner should be alerted. 
+
+

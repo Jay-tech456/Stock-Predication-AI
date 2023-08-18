@@ -1,4 +1,4 @@
-﻿* What is a prediction? 
+* What is a prediction? 
    * A prediction is a forecast of what we foresee in the future given what we observe, the information present, and what we rationalize. 
 
 
@@ -23,3 +23,26 @@
       * Nasdaq has a 10+ year chart and an accurate statement in regards to the data that is given. 
          * We will be utilizing the highest and lowest values within the five years of data. 
          * The AI tool will predict to add/sell the shares based on the 5-year chart and will send an SMS.
+
+
+* What architecture will we be using to make this application? 
+   * We will be using a micro service based architecture. 
+	We will have N servers who are communicating among each other using small CRUD Operations
+		These small micro services will be be connected to a bigger server and will have different operations. 
+		
+			Microservice A main task will preform CRUD operations on the stock currently own by the user 
+	
+			Microservice B main task will preform CRUD operations on the stock performance based on the NASDAQ website
+		
+			Microservice C main task will look at the Stock performance in Real Time
+
+					
+				These two micro service will be connected to a bigger micro service that will make the decision to add or sell the stock (AI) 
+
+
+* How are we storing the data? 
+	We will collect the data through the last 5 years and store it within a relational database. 
+		The Data will be preloaded onto the application from all-time highest, all-time lowest, average, 52 weeks highest, 52 weeks oldest. 
+
+	
+ 

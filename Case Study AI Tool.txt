@@ -1,4 +1,4 @@
-﻿Case Study I: 
+Case Study I: 
 
 
         When Apple was lowest, Capgemini was higher and continued to fall.
@@ -33,13 +33,9 @@ Case Study III:
 
 
         Even though the AI tool did not have access to current events; it made a rational
-        rational recommendation to sell the shares given the data. 
+        recommendation to sell the shares given the data. 
 
 
         If the owner of JCPenny shares got an SMS to sell the shares, they would not lose that
         that much income
 
-
-
-
-Case Study IV:
